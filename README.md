@@ -127,7 +127,8 @@ nand (X,S,clk);
 nand (Y,R,clk);
 nand (Q,X,Qbar);
 nand (Qbar,Y,Q);
-endmodule
+endmodule.
+
 >JK FLIPFLOP:
 module JK(J,K,clk,Q,Qbar);
 input J,K,clk;
@@ -137,7 +138,8 @@ nand (X,J,clk,Qbar);
 nand (Y,K,clk,Q);
 nand (Q,X,Qbar);
 nand (Qbar,Y,Q);
-endmodule
+endmodule.
+
 >D FLIPFLOP:
 module DF(D,clk,Q,Qbar);
 input D,clk;
@@ -148,7 +150,8 @@ nand (X,D,clk);
 nand (Y,Dbar,clk);
 nand (Q,X,Qbar);
 nand (Qbar,Y,Q);
-endmodule
+endmodule.
+
 > T FLIPFLOP:
 module TF(T,clk,Q,Qbar);
 input T,clk;
@@ -158,7 +161,7 @@ nand (S,T,clk,Qbar);
 nand (R,T,clk,Q);
 nand (Q,S,Qbar);
 nand (Qbar,R,Q);
-endmodule
+endmodule.
 
 ### RTL LOGIC FOR FLIPFLOPS :
 > SR FLIPFLOP:
